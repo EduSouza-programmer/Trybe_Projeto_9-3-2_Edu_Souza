@@ -41,7 +41,7 @@ const showAlert = (message) => {
 // }
 
 const fetchCurrencyAwaitAsync = async (currency) => {
-  const endpoint = `http://api.exchangeratesapi.io/v1/latest?access_key=bbcbd7c5841f71a5fbc0e5befde3bc5f`;
+  const endpoint = `https://api.exchangeratesapi.io/v1/latest?access_key=bbcbd7c5841f71a5fbc0e5befde3bc5f`;
 
   try {
     const response = await fetch(endpoint);
